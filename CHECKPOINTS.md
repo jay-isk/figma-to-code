@@ -20,7 +20,14 @@ This file tracks all major checkpoints in the project development. Use these che
 
 **To restore:**
 ```bash
+# Clone the specific checkpoint
+git clone -b checkpoint/step-interface-v1 git@github.com:jay-isk/figma-to-code.git
+
+# OR if you already have the repository, checkout the branch
 git checkout checkpoint/step-interface-v1
+
+# To pull latest changes from this checkpoint
+git pull origin checkpoint/step-interface-v1
 ```
 
 **Key Components:**
