@@ -1,3 +1,52 @@
+# Figma to Code Converter
+
+## Checkpoint: Step Interface v1
+
+This checkpoint represents a stable version of the step interface with the following features:
+
+### Features
+- Chat-like interface for step-by-step conversion
+- Contextual system messages based on user selections
+- Edit functionality for previous steps
+- Processing status display
+- Preview section
+- File upload and URL input support
+- Stack, styling, and unit selection
+
+### Key Components
+1. `StepInterface.tsx`: Main component handling the step-by-step flow
+2. `RadioPillGroup.tsx`: Reusable component for selection options
+3. `FileUpload.tsx`: Component for handling file uploads
+4. `ProgressSection.tsx`: Component for displaying processing status
+
+### How to Restore
+To restore this checkpoint:
+```bash
+git checkout checkpoint/step-interface-v1
+```
+
+### Notable Features
+- No default selections (user must make explicit choices)
+- Contextual feedback messages
+- Edit buttons for previous selections
+- Processing status indicators
+- Responsive layout (30/70 split)
+- Cursor pointer for all interactive elements
+
+### Dependencies
+- Next.js
+- @headlessui/react
+- @heroicons/react
+- Tailwind CSS
+
+### Next Steps
+Potential improvements:
+1. Add more detailed system messages
+2. Enhance hover effects
+3. Add tooltips
+4. Implement actual file processing
+5. Add preview functionality
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
